@@ -1,5 +1,5 @@
-from funciones.sumasanchez import sumar
+from funciones.sumasanchez import suma
 
 def test_sumar():
-    assert sumar(3,5) == 8
-    assert sumar(-2,2) == 0
+    assert suma(3,5) == 8
+    assert suma(-2,2) == 0
